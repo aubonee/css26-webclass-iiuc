@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box {
+    height: 450px;
+    width: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.class1 {
+    background-color: rgb(216, 129, 15);
+}
+
+.class2 {
+    background-color: rgb(176, 231, 27);
+}
+
+.class3 {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.class1 p {
+    font-size: 25px;
+}
+
+.class1 p::first-letter {
+    background-color: rgb(231, 239, 245);
+}
+
+.class2 p::first-line {
+    background-color: rgb(155, 204, 238);
+}
+
+.class3 p::first-letter {
+    font-size: 50px;
+}
